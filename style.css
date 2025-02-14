@@ -184,22 +184,6 @@ body {
 
 /* logo animation end */
 
-#header-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* Center the content properly */
-  height: 100vh;
-}
-
-.content {
-  flex: 1;
-  max-width: 50%;
-  text-align: left;
-  padding: 20px; /* Add some spacing */
-}
-
-
 
 /* resume button start */
 
