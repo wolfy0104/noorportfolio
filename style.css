@@ -201,60 +201,6 @@ body {
 
 
 
-.content h1 {
-  font-size: 2.5rem;
-  font-family: var(--font1);
-}
-
-.content #element {
-  font-size: 28px;
-  color: var(--color2);
-  line-height: 0.9em;
-  letter-spacing: 0.02em;
-  font-weight: bolder;
-  font-family: var(--font2);
-}
-
-.content hr {
-  margin-top: 15px;
-  width: 7%;
-  height: 3px;
-  border-radius: 20px 0;
-  border-width: 0;
-  background-color: var(--color2);
-}
-
-.content p {
-  width: 28rem;
-  margin: 20px 0;
-  text-align: justify;
-  letter-spacing: 0.02em;
-  line-height: 1.4em;
-  font-size: 1.2em;
-  font-family: var(--font3);
-}
-
-.social_media {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 25px 0;
-}
-
-.social_media .fa-github,
-.fa-linkedin {
-  width: fit-content;
-  font-size: 2em;
-  letter-spacing: 1rem;
-  color: var(--color2);
-}
-
-.social_media .fa-github:hover,
-.fa-linkedin:hover {
-  color: var(--color5);
-  transition: color 1s ease;
-}
-
 /* resume button start */
 
 .resume {
