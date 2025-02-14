@@ -232,50 +232,6 @@ a {
 }
 /* resume button end */
 
-/* Start of Card Flip animation */
-.card {
-  width: 17em;
-  height: 17em;
-  perspective: 500px;
-}
-
-.__content {
-  width: 17em;
-  height: 17em;
-  transition: 1s ease-in-out;
-  transform-style: preserve-3d;
-}
-
-.card:hover .__content {
-  transform: rotateY(180deg);
-  transition: 0.5s ease-in-out;
-}
-
-.front,
-.back {
-  object-fit: contain;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  box-shadow: 5px 5px 10px var(--color1);
-  border-radius: 50%;
-  backface-visibility: hidden;
-}
-
-.back {
-  background: linear-gradient(
-    -45deg,
-    var(--color2),
-    var(--color3),
-    var(--color2)
-  );
-  transform: rotateY(180deg);
-}
-/* End of Card Flip animation */
 
 .back ul {
   position: absolute;
