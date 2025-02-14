@@ -199,20 +199,7 @@ body {
   padding: 20px; /* Add some spacing */
 }
 
-.card {
-  flex: 1;
-  max-width: 50%;
-  display: flex;
-  justify-content: center; /* Centers the image */
-  align-items: center; /* Aligns the image vertically */
-}
 
-.card img {
-  width: 80%; /* Adjust the image size */
-  max-width: 300px; /* Prevent it from getting too large */
-  height: auto;
-  border-radius: 10px; /* Optional: Add rounded corners */
-}
 
 .content h1 {
   font-size: 2.5rem;
